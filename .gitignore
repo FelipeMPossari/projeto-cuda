@@ -1,0 +1,10 @@
+# Arquivos de dados gerados
+entrada.txt
+saida_*.txt
+
+# Executáveis compilados
+gerador
+cpu
+gpu
+*.exe
+*.out
