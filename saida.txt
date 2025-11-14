@@ -1,0 +1,39 @@
+=== RESULTADOS DA SIMULAÇÃO DE EPIDEMIA (GPU) ===
+
+--- Configuração da Simulação ---
+Teste ID: 8
+Dimensões da Grade: 500 x 500
+População Total: 250000 células
+Iterações Máximas: 250000
+Iterações Executadas: 250000
+
+--- Configuração da GPU ---
+Blocos: (32, 32)
+Threads por Bloco: (16, 16)
+Total de Threads: 262144
+
+--- Estado Inicial ---
+Saudáveis: 180111 (72.04%)
+Contaminados: 19997 (8.00%)
+Vazios: 49892 (19.96%)
+Taxa de Contaminação Inicial: 9.99%
+
+--- Estado Final ---
+Saudáveis: 5321 (2.13%)
+Contaminados: 0 (0.00%)
+Mortos: 194787 (77.91%)
+Vazios: 244679 (97.87%)
+Sobreviventes (Saudáveis + Contaminados): 5321 (2.13%)
+
+--- Análise Estatística ---
+População Viva Inicial: 200108
+Taxa de Mortalidade: 97.34%
+Taxa de Sobrevivência: 2.66%
+Situação: EPIDEMIA CONTIDA (não há mais contaminados)
+
+--- Desempenho ---
+Tempo de Execução: 21732.33 ms (21.7323 segundos)
+Tempo por Iteração: 0.0869 ms
+Throughput: 2.88e+09 células/segundo
+
+=== FIM DO RELATÓRIO ===

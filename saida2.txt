@@ -1,0 +1,2 @@
+Total de Mortos: 194832
+Sobreviventes (Saudáveis + Contaminados): 5276
